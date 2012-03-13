@@ -1,0 +1,8 @@
+Example:
+
+>>> from yandex_translate import Translate
+>>> t = Translate()
+>>> print t.get_directions()
+[u'en-ru', u'ru-en', u'ru-uk', u'uk-ru', u'pl-ru', u'ru-pl', u'tr-ru', u'ru-tr', u'de-ru', u'ru-de', u'fr-ru', u'ru-fr', u'it-ru', u'es-ru', u'ru-es']
+>>> print t.translate('Привет, мир!'.decode('utf-8'), 'ru-en')
+Hello, world!
